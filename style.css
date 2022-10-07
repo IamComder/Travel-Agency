@@ -1,0 +1,532 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Open Sans', sans-serif;
+}
+body{
+     min-height: 500vh;
+}
+.head .header
+{
+     height: 150vh;
+     background: url(img/top.png), url(img/bottom.png), url(img/background.png);
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: top, bottom, center;
+     background-color: blue;
+}
+.head .header .navbar
+{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px 90px;
+}
+.head .header .navbar .nav-list
+{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     list-style-type: none;
+}
+.head .header .navbar .nav-list a
+{
+     text-decoration: none;
+     color: #54524f;
+     display: inline-block;
+     padding: 10px;
+     font-size: 1em;
+     font-weight: 900;
+}
+.head .header .header-content 
+{
+     width: 50%;
+     padding: 90px 80px;
+}
+.head .header .header-content h1
+{
+     color: #deb37e;
+     text-transform: uppercase;
+     font-size: 80px;
+     font-weight: 900;
+     text-shadow: 5px -2px 5px #aaa;
+}
+.head .header .header-content #para1
+{
+     color: #54524f;
+     text-transform: uppercase;
+     font-weight: bold;
+     font-style: italic;
+     font-size: 20px;
+}
+.head .header .header-content a
+{
+     display: inline-block;
+     text-decoration: none;
+     color: #776c64;
+     text-transform: uppercase;
+     background-color: white;
+     padding: 5px 25px;
+     border-radius: 25px;
+     font-weight: bolder;
+     margin-top: 20px;
+}
+.head .header .header-content #para2
+{
+     color: #54524f;
+     font-style: italic;
+     margin-top: 10px;
+     font-size: 1em;
+     font-weight: 600;
+}
+.head .lets-go
+{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-top: -50px;
+}
+.head .lets-go .main-content
+{
+     display: flex;
+     justify-content: center;
+     width: 100%;
+     flex-direction: column;
+     align-items: center;
+     padding: 0 80px 50px 80px;
+}
+.head .lets-go .main-content h1
+{
+     color: #e2a355;
+     font-weight: bold;
+     font-size: 45px;
+     text-transform: uppercase;
+     padding-bottom: 10px;
+}
+.head .lets-go .content #para3
+{
+     color: #54524f;
+     font-size: 1em;
+     font-weight: 600;
+     padding: 0 320px;
+     text-align: center;
+}
+.head .lets-go .card-container
+{
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     padding: 0 90px;
+}
+.head .lets-go .card-container .card
+{
+     width: 320px;
+     display: flex;
+     flex-direction: column;
+}
+.head .lets-go .card-container .card img
+{
+     width: 320px;
+}
+.head .lets-go .card-container .card .content
+{
+     background-color: #7f7770;
+     color: white;
+     width: 320px;
+     padding: 40px 20px;
+}
+.head .lets-go a
+{
+     text-transform: uppercase;
+     text-decoration: none;
+     background-color: #776c64;
+     color: white;
+     padding: 10px 50px;
+     border-radius: 30px;
+     margin-top: 40px;
+     margin-bottom: 60px;
+     font-weight: bolder;
+}
+.info
+{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+.info .info-section1
+{
+     display: flex;
+     width: 100%;
+}
+.info .info-section1 img
+{
+     width: 50%;
+}
+.info .info-section1 .content
+{
+     background-color: #7f7770;
+     width: 50%;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     padding-left: 50px;
+     padding-right: 150px;
+}
+.info .info-section1 .content h1
+{
+     font-size: 50px;
+     color: white;
+}
+.info .info-section1 .content p
+{
+     color: white;
+     font-size: 1.2em;
+     padding-right: 50px;
+     padding-top: 20px;
+}
+.info .info-section1 .content .link
+{
+     margin-top: 30px;
+}
+.info .info-section1 .content .link a
+{
+     text-decoration: none;
+     color: white;
+     background-color: #e2a355;
+     text-align: center;
+     letter-spacing: 3px;
+     text-transform: uppercase;
+     padding: 8px 30px;
+     border-radius: 30px;
+     font-weight: bolder;
+}
+.info .info-section2
+{
+     display: flex;
+     width: 100%;
+}
+.info .info-section2 img
+{
+     width: 50%;
+}
+.info .info-section2 .content
+{
+     background-color: #e2a355;
+     width: 50%;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     padding-left: 50px;
+     padding-right: 150px;
+}
+.info .info-section2 .content h1
+{
+     font-size: 50px;
+     color: white;
+}
+.info .info-section2 .content p
+{
+     color: white;
+     font-size: 1.2em;
+     padding-right: 50px;
+     padding-top: 20px;
+}
+.info .info-section2 .content .link
+{
+     margin-top: 30px;
+}
+.info .info-section2 .content .link a
+{
+     text-decoration: none;
+     color: white;
+     background-color: #776c64;
+     text-align: center;
+     letter-spacing: 3px;
+     text-transform: uppercase;
+     padding: 8px 30px;
+     border-radius: 30px;
+     font-weight: bolder;
+}
+.info .thought
+{
+     height: 120vh;
+     width: 100%;
+     background: url(img/thought-bg.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     position: relative;
+}
+.info .thought h1
+{
+     font-size: 40px;
+     color: white;
+}
+.info .thought p
+{
+     color: white;
+     padding: 10px 400px;
+     text-align: center;
+}
+.info .thought .image1
+{
+     position: absolute;
+     top: 0;
+     width: 100%;
+}
+.info .thought .image2
+{
+     position: absolute;
+     bottom: -80px;
+     width: 100%;
+     z-index: 2;
+}
+.info .explore
+{
+     height: 130vh;
+     width: 100%;
+     background: url(img/explore-img.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: flex-end;
+     flex-direction: column;
+}
+.info .explore img
+{
+     position: absolute;
+     bottom: -70px;
+     width: 100%;
+}
+.info .explore .heading1, .heading2
+{
+     color: #e2a355;
+     font-size: 70px;
+     text-transform: uppercase;
+     padding-right: 90px;
+     font-style: italic;
+     text-shadow: 2px -2px 5px #54524f;
+}
+.info .explore .heading2
+{
+     color: #54524f;
+}
+.info-card
+{
+     display: flex;
+     flex-direction: column;
+     height: 80vh;
+     padding: 70px 120px;
+}
+.info-card .card-container
+{
+     display: flex;
+     justify-content: space-between;
+}
+.info-card .card-container .card
+{
+     width: 300px;
+}
+.info-card .card-container .card h3
+{
+     color: #e2a355;
+     text-transform: capitalize;
+     font-size: 1.5em;
+     text-align: center;
+}
+.info-card .card-container .card p
+{
+     color: #54524f;
+     padding-top: 20px;
+     font-size: .95em;
+     text-align: center;
+}
+.info-card .quote
+{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin-top: 100px;
+}
+.info-card .quote h1
+{
+     color: #54524f;
+     font-weight: bolder;
+     font-size: 70px;
+     line-height: 50px;
+}
+.info-card .quote p
+{
+     color: #54524f;
+     font-weight: bold;
+     padding: 0 200px;
+     text-align: center;
+}
+.info-card .quote h3
+{
+     color: #54524f;
+     text-transform: capitalize;
+     font-weight: bold;
+     font-size: .9em;
+     padding-top: 40px;
+     z-index: 5;
+}
+.subscribe
+{
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     background-color: #e2a355;
+     color: white;
+     flex-direction: column;
+     padding-top: 60px;
+}
+.subscribe .image1
+{
+     position: absolute;
+     top: -10px;
+     width: 100%;
+}
+.subscribe .content
+{
+     display: flex;
+     flex-direction: column;
+     /* justify-content: center; */
+     align-items: center;
+}
+.subscribe .content h1
+{
+     font-size: 50px;
+}
+.subscribe .content p
+{
+     color: #54524f;
+     padding: 40px 300px;
+     text-align: center;
+     font-size: 1.2em;
+     font-weight: 500;
+}
+.subscribe form
+{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     z-index: 65;
+}
+.subscribe input[type=email]
+{
+     width: 40%;
+     height: 40px;
+     border-radius: 30px 0 0 30px;
+     border: none;
+     padding-left: 30px;
+     color: #54524f;
+     outline: none;
+     font-size: 1.2em;
+     transform: translateX(10px);
+}
+.subscribe input[type=submit]
+{
+     width: 10%;
+     height: 40px;
+     border-radius: 30px;
+     border: none;
+     background-color: #54524f;
+     outline: none;
+     color: white;
+     text-align: center;
+     font-weight: 600;
+     font-size: 18px;
+     z-index: 2;
+     transform: translateX(-10px);
+}
+.social-media
+{
+     height: 100vh;
+     width: 100%;
+     color:white;
+     background-color: #54524f;
+     position: relative;
+     display: flex;
+     justify-content: space-between;
+     padding: 250px 120px;
+}
+.social-media .image2
+{
+     position: absolute;
+     top: -70px;
+     width: 100%;
+     left: 0;
+}
+.social-media .title
+{
+     width: 350px;
+}
+.social-media .title h3
+{
+     font-size: 26px;
+     font-weight: 400;
+     text-transform: capitalize;
+     padding-bottom: 10px;
+}
+.social-media .title .icon
+{
+     margin-top: 10px;
+}
+.social-media .title .icon .bi
+{
+     padding: 4px;
+     font-size: 1.5em;
+}
+.social-media .title .icon .bi:nth-child(1)
+{
+     padding-left: 0;
+}
+.social-media .about ul
+{
+     list-style-type: none;
+     padding-top: 10px;
+}
+
+.social-media .about ul a
+{
+     display: inline-block;
+     color: white;
+     text-decoration: none;
+     padding: 2px 0;
+}
+.social-media .services ul
+{
+     padding-top: 10px;
+     list-style-type: none;
+}
+.social-media .services ul a
+{
+     display: inline-block;
+     color: white;
+     text-decoration: none;
+     padding: 2px 0;
+}
+.social-media .other ul
+{
+     padding-top: 10px;
+     list-style-type: none;
+}
+.social-media .other ul a
+{
+     display: inline-block;
+     color: white;
+     text-decoration: none;
+     padding: 2px 0;
+}
